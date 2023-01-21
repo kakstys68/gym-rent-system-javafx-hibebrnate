@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="184.0" prefWidth="214.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxControllers.EquipmentRegistrationPage">
+   <children>
+      <TextField fx:id="equipmentNameField" layoutX="30.0" layoutY="28.0" promptText="Name" />
+      <TextField fx:id="equipmentTypeField" layoutX="31.0" layoutY="64.0" promptText="Sports type" />
+      <TextField fx:id="equipmentQuantityField" layoutX="32.0" layoutY="102.0" promptText="Quantity" />
+      <Button fx:id="actionButton" layoutX="55.0" layoutY="139.0" mnemonicParsing="false" onAction="#createEquipment" text="Add equipment" />
+      <Text layoutX="66.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add equipment" />
+   </children>
+</AnchorPane>
