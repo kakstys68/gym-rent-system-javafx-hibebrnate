@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="379.0" prefWidth="181.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxControllers.RegistrationPage">
+   <children>
+      <TextField fx:id="usernameField" layoutX="14.0" layoutY="25.0" promptText="Username" />
+      <PasswordField fx:id="passwordField" layoutX="13.0" layoutY="61.0" promptText="Password" />
+      <TextField fx:id="nameField" layoutX="14.0" layoutY="102.0" promptText="Name" />
+      <TextField fx:id="surnameField" layoutX="14.0" layoutY="141.0" promptText="Surname" />
+      <TextField fx:id="emailField" layoutX="14.0" layoutY="180.0" promptText="Email" />
+      <CheckBox fx:id="isRentProvider" layoutX="14.0" layoutY="217.0" mnemonicParsing="false" onAction="#disableFields" text="Rent provider" />
+      <DatePicker fx:id="birthdateField" layoutX="14.0" layoutY="245.0" prefHeight="26.0" prefWidth="150.0" promptText="Date of birth" />
+      <Button fx:id="actionButton" layoutX="37.0" layoutY="334.0" mnemonicParsing="false" onAction="#createNewUser" text="Create new user" />
+      <TextField fx:id="companyName" layoutX="14.0" layoutY="288.0" promptText="Name of company" />
+   </children>
+</AnchorPane>
